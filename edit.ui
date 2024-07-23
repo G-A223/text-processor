@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1134</width>
+    <height>846</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background-color: rgb(253, 227, 246);
+}
+
+QScrollBar:vertical {
+	border: none;
+	width: 14px;
+	margin: 15px 0 15px 0;
+	background-color: rgb(254, 179, 242);
+	border-radius: 0px;
+}
+
+QScrollBar::handle:vertical {
+	min-height: 30px;
+	border-radius: 7px;
+	background-color: rgb(254, 151, 227);
+}
+
+
+QScrollBar::handle:vertical:hover {
+	background-color: rgb(254, 118, 218);
+}
+
+QScrollBar::handle:vertical:pressed {
+	background-color: rgb(254, 186, 239);
+}
+
+
+QScrollBar::sub-line:vertical {
+	border: none;
+	border-top-left-radius: 7px;
+	background-color: rgb(254, 151, 227);
+	border-top-right-radius: 7px;
+	height: 15px;
+	subcontrol-position: top;
+	subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical:hover {
+	background-color: rgb(254, 118, 218);
+
+}
+
+QScrollBar::sub-line:vertical:pressed {
+	background-color: rgb(254, 186, 239);
+}
+
+QScrollBar::add-line:vertical {
+	border: none;
+	background-color: rgb(254, 151, 227);
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	height: 15px;
+	subcontrol-position: bottom;
+	subcontrol-origin: margin;
+}
+
+QScrollBar::add-line:vertical:hover {
+	background-color: rgb(254, 118, 218);
+}
+
+QScrollBar::add-line:vertical:pressed {
+	background-color: rgb(254, 186, 239);
+}
+
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+	background: none;
+}
+
+QScrollBar::ad-page:vertical, QScrollBar::sub-page:vertical {
+	background: none;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>200</y>
+      <width>801</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="txt_field">
+     <property name="spacing">
+      <number>26</number>
+     </property>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>1111</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(253, 150, 222);
+border: none;
+border-radius: 10px;</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="home_btn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri Light</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	background-color: rgb(221, 131, 194);
+	color: rgb(100, 59, 88);
+}
+
+QPushButton:pressed{
+	background-color: rgb(255, 151, 224);
+	color: rgb(100, 59, 88);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Главная</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
