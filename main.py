@@ -1,8 +1,9 @@
 import tkinter as tk
 
+k = 1
+
 print(12)
 print("hello")
-print(0)
 
 a = 3 + 6
 
