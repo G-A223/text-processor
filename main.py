@@ -5,3 +5,6 @@ print("hello")
 print(0)
 
 a = 3 + 6
+
+
+print("DEDEDEDEDEDEDEDEDE!!!!!////.")
